@@ -136,12 +136,5 @@ input:focus {
     left:95%;
     bottom:10px;
   }
-  body{
-    padding-top: 40%;
-  }
-}
-@media screen and (max-height:500px){
-  body {
-    padding-top: 0%;
-  }
+
 }
