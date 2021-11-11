@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Rampart+One&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Dongle', sans-serif;
+  font-size: 25px;
+}
+body{
+  /*background:#9BA3F4 ;*/
+  background: #007292;
+  font-size: 15pt;
+}
+.logo {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.logo img{
+  width:60px;
+}
+.logo p{
+  color: #F4CECE;
+  font-style: bold;
+  font-size: 50px;
+}
+.yt-video-downloading-box1 {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+
+.yt-video-downloading-box2 {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10%;
+  border: 1px solid white;
+/*  box-shadow: 1px 1px 6px #000000;*/
+}
+
+.thumbnail-linkInput-box {
+  margin: 20px 0;
+}
+
+.thumbnail-box {
+
+  width: 100%;
+  background: deeppink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.thumbnail {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.linkAcceptor {
+  padding-right: 13%;
+  text-align: center;
+  margin-top: 20px;
+  width: 87%;
+  height: 20px;
+  border: 1px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: none;
+  color: white;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+
+}
+
+input:focus {
+  outline: none;
+}
+
+
+.quality-downloadButton-box {
+  width: 100%;
+}
+
+.qualityOption {
+  text-align: center;
+  background: white;
+  height: 50px;
+  width: 100%;
+  display: block;
+  border: none;
+  border-radius: 20px;
+}
+.qualityOption:focus{
+  outline: none;
+}
+.qualityOption option{
+  text-align: center;
+}
+
+.downloader {
+  
+
+   background: #11E458;
+  height: 50px;
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+}
+.downloader:focus{
+  outline: none;
+}
+.linkInput-box{
+  position: relative;
+}
+.pasteImg{
+  width:20px;
+  position: absolute;
+  left:250px;
+  bottom:10px;
+}
+@media screen and (min-width:500px){
+  .yt-video-downloading-box2{
+    width:50vw;
+  }
+  .pasteImg{
+    left:95%;
+    bottom:10px;
+  }
+  body{
+    padding-top: 40%;
+  }
+}
+@media screen and (max-height:500px){
+  body {
+    padding-top: 0%;
+  }
+}
